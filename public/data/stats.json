@@ -1,0 +1,112 @@
+{
+  "title": ["Blog Writing Analysis: Gender and Age Differences"],
+  "methods": ["Analysis of 60,000 blog posts using sentiment analysis and adjective extraction"],
+  "adjectives_by_gender": {
+    "male": {
+      "mean": [13.92],
+      "median": [7],
+      "p_value": [0.5336],
+      "n": [29927]
+    },
+    "female": {
+      "mean": [14.05],
+      "median": [9],
+      "p_value": [0.5336],
+      "n": [30073]
+    }
+  },
+  "sentiment_by_gender": {
+    "male": {
+      "mean": [0.3332],
+      "median": [0.5635],
+      "p_value": [8.025e-06],
+      "n": [29927]
+    },
+    "female": {
+      "mean": [0.3575],
+      "median": [0.6486],
+      "p_value": [8.025e-06],
+      "n": [30073]
+    }
+  },
+  "age_by_gender": {
+    "male": {
+      "mean": [25.22],
+      "median": [25],
+      "p_value": [2.2e-16],
+      "n": [29927]
+    },
+    "female": {
+      "mean": [23.29],
+      "median": [23],
+      "p_value": [2.2e-16],
+      "n": [30073]
+    }
+  },
+  "adjectives_by_age": {
+    "13-19": {
+      "mean": [12.4],
+      "median": [7],
+      "p_value": [2e-16],
+      "n": [20464]
+    },
+    "20-29": {
+      "mean": [15.46],
+      "median": [9],
+      "p_value": [2e-16],
+      "n": [26667]
+    },
+    "30-39": {
+      "mean": [12.79],
+      "median": [6],
+      "p_value": [2e-16],
+      "n": [11017]
+    },
+    "40+": {
+      "mean": [17.31],
+      "median": [8],
+      "p_value": [2e-16],
+      "n": [1852]
+    }
+  },
+  "sentiment_by_age": {
+    "13-19": {
+      "mean": [0.3145],
+      "median": [0.5779],
+      "p_value": [2e-16],
+      "n": [20464]
+    },
+    "20-29": {
+      "mean": [0.3761],
+      "median": [0.6705],
+      "p_value": [2e-16],
+      "n": [26667]
+    },
+    "30-39": {
+      "mean": [0.33],
+      "median": [0.5041],
+      "p_value": [2e-16],
+      "n": [11017]
+    },
+    "40+": {
+      "mean": [0.3359],
+      "median": [0.5099],
+      "p_value": [2e-16],
+      "n": [1852]
+    }
+  },
+  "adjectives_by_sentiment": {
+    "negative": {
+      "mean": [12.91],
+      "n": [14839]
+    },
+    "neutral": {
+      "mean": [1.556],
+      "n": [6267]
+    },
+    "positive": {
+      "mean": [16.4],
+      "n": [38894]
+    }
+  }
+}
